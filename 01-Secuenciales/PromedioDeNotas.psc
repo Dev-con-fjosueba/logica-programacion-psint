@@ -39,6 +39,7 @@ Algoritmo PromedioDeNotas
 	Definir Nota2 Como Real
 	Definir Nota3 Como Real
 	Definir Nota4 Como Real
+	Definir SumaNotas Como Real
 	Definir PromedioNotas Como Real
 	//Realizamos notificaición de que ingrésen valores numéricos permitidos.
 	Escribir "Porfavor ingresar valores permitidos (0-20)"
@@ -51,8 +52,10 @@ Algoritmo PromedioDeNotas
 	Leer Nota3
 	Escribir "Ingrese la nota 4: "
 	Leer Nota4
-	//Realizamos calculo del promedio
-	PromedioNotas <- (Nota1+Nota2+Nota3+Nota4)/4
+	//Realizamos proceso de suma de las 4 notas
+	SumaNotas <- Nota1+Nota2+Nota3+Nota4
+	//Realizamos calculo del promedio 
+	PromedioNotas <- SumaNotas/4
 	//Mostramos el valor del resultado
 	Escribir "El promedio de las 4 notas ingresadas es: ",PromedioNotas
 FinAlgoritmo
