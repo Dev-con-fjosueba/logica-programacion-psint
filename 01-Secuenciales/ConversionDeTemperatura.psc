@@ -38,7 +38,15 @@
 //=========================================
 
 Algoritmo ConversionDeTemperatura
-	
-	
+	// Definimos variables.
+	Definir Celsius Como Real // Variable de entrada.
+	Definir Fahrenheit Como Real
+	// Solicitamos entrada de datos.
+	Escribir "Por favor ingrese la temperatura en grados celsius (°C): "
+	Leer Celsius
+	// Aplicamos la formula necesaria para hacer el cambio de °C a °F.
+	Fahrenheit <- (Celsius * 9/5) + 32
+	//Mostramos los resultados del cambio de temperatura
+	Escribir "La temperatura de ",Celsius," °C en grados Fahrenheit es: ",Fahrenheit," °F."
 	
 FinAlgoritmo
