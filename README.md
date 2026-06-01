@@ -1,6 +1,6 @@
 # Lógica de Programación con PSeInt
 
-Repositorio dedicado al aprendizaje y práctica de los fundamentos de programación utilizando PSeInt. Este proyecto documenta mi proceso de formación en algoritmos, estructuras de control, modularización y resolución de problemas, como preparación para el desarrollo de software con tecnologías como Java, SQL y Git.
+Repositorio dedicado al aprendizaje y práctica de los fundamentos de programación utilizando PSeInt. Este proyecto documenta mi proceso de formación en algoritmos, estructuras de control, modularización y resolución de problemas, como preparación para el desarrollo de software con tecnologías como Python,Javascript, Java, SQL y Git.
 
 ## Objetivos
 
