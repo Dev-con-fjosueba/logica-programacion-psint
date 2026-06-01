@@ -6,8 +6,8 @@
 //	
 //	PROBLEMA:
 //		Desarrollar un algoritmo que solicite la velocidad
-//		de un vehículo y el tiempo de recorrido, para calcular
-//		y mostrar la distancia recorrida.
+//		de un vehículo en km/h y el tiempo de recorrido en minutos, para calcular
+//		y mostrar la distancia recorrida en metros.
 //			
 //	ENTRADAS:
 //		- Velocidad
@@ -33,14 +33,23 @@
 //	FÓRMULA UTILIZADA:
 //		Distancia = Velocidad × Tiempo
 //			
-//	OBSERVACIÓN:
-//		Se asume que la velocidad permanece constante
-//		durante todo el recorrido y que las unidades
-//		de velocidad y tiempo son compatibles.
-//		Por ejemplo:
-//			- Velocidad en km/h y tiempo en horas.
-//			- Velocidad en m/s y tiempo en segundos.
 //=========================================
 Algoritmo DistaciaRecorrida
-	
+	// Definimos variables
+	Definir Velocidad Como Real
+	Definir Tiempo Como Real
+	Definir Distacia Como Real
+	// Solicitamos ingreso de datos
+	Escribir "Ingrese el valor de la velocidad en km"
+	Leer Velocidad
+	Escribir "Ingrese el timpo de recorrido en minutos"
+	Leer Tiempo
+	// Convertimos las unidades ingresadas de la velocidad. De km/h a metros/segundo.
+	Velocidad <- (Velocidad*1000)/3600
+	// Convertimos las unidades ingresadas del tiempo de recorrido. De minutos a segundos.
+	Tiempo <- Tiempo*60
+	// Integramos las variables en la formula para calcular la distancia recorrida en m/s.
+	Distacia <- Velocidad*Tiempo
+	// Mostramos los resultados en metros.
+	Escribir "La distacia recorrida es: ",Distacia, " metros"
 FinAlgoritmo
