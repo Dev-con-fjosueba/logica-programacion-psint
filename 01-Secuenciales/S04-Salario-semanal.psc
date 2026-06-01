@@ -41,5 +41,18 @@
 //=========================================
 
 Algoritmo SalarioSemanal
+	//Declaración de varaibles
+	Definir HorasTrabajadas Como Real
+	Definir PagoPorHora Como Real
+	Definir Salario Como Real
+	//Pedimos el igresso de datos
+	Escribir "Ingrese el número de horas trabajadas durante la semana: "
+	Leer HorasTrabajadas
+	Escribir "Escribe el monto a pagar por hora de trabajo: "
+	Leer PagoPorHora
+	//Agregamos fórmula nececsaria para hacer el cálculo del Salario.
+	Salario <- HorasTrabajadas*PagoPorHora
+	//Mostramos el resultado
+	Escribir "El salario de esta semana es: ",Salario," soles."
 	
 FinAlgoritmo
