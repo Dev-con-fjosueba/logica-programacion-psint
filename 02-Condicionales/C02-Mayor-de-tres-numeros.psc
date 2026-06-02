@@ -40,5 +40,24 @@ Algoritmo MayorDeTresNumeros
 	Definir Numero1 Como Real
 	Definir Numero2 Como Real
 	Definir Numero3 Como Real
-	
+	Definir NumeroMayor Como Real
+	//Pedimos ingresar los 3 numeros
+	Escribir "Ingresa el primer número: "
+	Leer Numero1
+	Escribir "Ingresa el segundo número: "
+	Leer Numero2
+	Escribir "Ingresa el tercer número: "
+	Leer Numero3
+	//Empezamos con estructuras selectivas para comparar los tres valores e identificar al moyor número
+	Si Numero1 >= Numero2 y Numero1>=Numero3 Entonces
+		NumeroMayor <- Numero1
+	SiNo
+		Si Numero2 >= Numero1 y Numero2>=Numero3 Entonces
+			NumeroMayor <- Numero2
+		SiNo
+			NumeroMayor <- Numero3
+		FinSi
+	FinSi
+	//Imprimimos el número mayor
+	Escribir "El mayor número ingresado es: ",NumeroMayor	
 FinAlgoritmo
