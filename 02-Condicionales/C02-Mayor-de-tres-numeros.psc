@@ -36,5 +36,9 @@
 //		si algunos valores son iguales.
 //=========================================
 Algoritmo MayorDeTresNumeros
+	// Definimos variables
+	Definir Numero1 Como Real
+	Definir Numero2 Como Real
+	Definir Numero3 Como Real
 	
 FinAlgoritmo
