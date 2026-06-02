@@ -118,11 +118,11 @@ Al finalizar esta sección seré capaz de:
 
 ## Estado de Avance
 
-- [ ] C01 - Número Par o Impar
-- [ ] C02 - Mayor de Tres Números
-- [ ] C03 - Aprobado o Desaprobado
-- [ ] C04 - Descuento en Tienda
-- [ ] C05 - Calculadora Básica
+- [x] C01 - Número Par o Impar
+- [x] C02 - Mayor de Tres Números
+- [x] C03 - Aprobado o Desaprobado
+- [x] C04 - Descuento en Tienda
+- [x] C05 - Calculadora Básica
 
 ---
 
