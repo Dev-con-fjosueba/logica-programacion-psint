@@ -39,6 +39,20 @@
 //		superior del ciclo.
 //=========================================
 Algoritmo TablaDeMultiplicar
-	//Definimos las variables
-	
+	// Definimos las variables
+	Definir Entrada Como Entero
+	Definir i Como Entero // Será el valor que irá incrementando dentro del bucle
+	Definir Multiplicacion Como Entero
+	//Solicitamos ingresar el número
+	Escribir "Ingrese el número del cual desea conocer su tabla de multiplicación: "
+	Leer Entrada
+	//Imprimimos mensaje de título
+	Escribir "======= TABLA DEL ",Entrada, " ======="
+	//Utilzamos bucle "Para"
+	Para i <- 0  Hasta 12 Hacer
+		Multiplicacion <- Entrada * i // Calculamos el valor del prducto
+		Escribir i,") ",Entrada, " * ",i," = ",Multiplicacion // Mostramos el proceso que se está dando para mostrar la tabla completa.
+	FinPara
+	//Agregamos impresión de linea en forma de cierra
+	Escribir "============================"
 FinAlgoritmo
