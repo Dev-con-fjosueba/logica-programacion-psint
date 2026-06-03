@@ -38,5 +38,19 @@
 //		1 + 2 + 3 + ... + N
 //=========================================
 Algoritmo SumatoriaPrimeros_N_Numeros
-	
+	//Declaramos variabes
+	Definir numero_n Como Entero // Será nuestra variable que guarde el valor ingresado
+	Definir i Como Entero // Es el valor que irá incrementando hasta llegar a ser igual al valor de N.
+	Definir TotalAcumulado Como Entero // Será la variable que al final del bucle guarde la suma total
+	//Agregamos título del Algoritmo 
+	Escribir "===== SUMADOR DE LOS N PRIMEROS NÚMEROS ====="
+	// Soicitamos ingresar los datos
+	Escribir "Ingrese el valor de N: "
+	Leer numero_n
+	// realizamos el bucle
+	Para i <- 0 Hasta numero_n Hacer
+		TotalAcumulado <- TotalAcumulado + i // En este proceso se irá sumando cada valor que ingrese hasta llegar al valor de N (numero_n)
+	FinPara
+	// Mostramos resultado de la suma de los primeros N números.
+	Escribir "La suma de los N primeros números es: ",TotalAcumulado
 FinAlgoritmo
