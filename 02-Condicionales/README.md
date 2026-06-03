@@ -122,7 +122,7 @@ Al finalizar esta sección seré capaz de:
 - [x] C02 - Mayor de Tres Números
 - [x] C03 - Aprobado o Desaprobado
 - [x] C04 - Descuento en Tienda
-- [ ] C05 - Calculadora Básica
+- [x] C05 - Calculadora Básica
 
 ---
 
