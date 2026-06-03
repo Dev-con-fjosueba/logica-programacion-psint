@@ -113,7 +113,7 @@ Al finalizar esta sección seré capaz de:
 ## Estado de Avance
 
 - [x] B01 - Tabla de Multiplicar
-- [ ] B02 - Suma de los Primeros N Números
+- [x] B02 - Suma de los Primeros N Números
 - [ ] B03 - Factorial de un Número
 - [ ] B04 - Serie Fibonacci
 - [ ] B05 - Contar Números Positivos
